@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.nbaynham.examples.TestParallel" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-17T23:16:08" hostname="2K2C5M2" time="0.0">
+<testsuite name="io.nbaynham.examples.TestParallel" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-10-18T01:35:05" hostname="2K2C5M2" time="44.948">
   <properties/>
-  <testcase name="test" classname="io.nbaynham.examples.TestParallel" time="0.0"/>
+  <testcase name="test" classname="io.nbaynham.examples.TestParallel" time="9.236"/>
+  <testcase name="test" classname="io.nbaynham.examples.TestParallel" time="9.003"/>
+  <testcase name="test" classname="io.nbaynham.examples.TestParallel" time="12.765"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Oct 17, 2019 9:35:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
 </testsuite>
