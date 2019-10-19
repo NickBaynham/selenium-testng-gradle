@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a6a39e-b415-493d-8dd5-464b6a5f2055" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/nbaynham/webdriver/extensions/WebDriverExtensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/nbaynham/twitter/Twitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
@@ -11,8 +13,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/io/nbaynham/examples/TestParallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/io/nbaynham/examples/TestParallel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestParallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestParallel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,59 +31,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="Twitter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/nbaynham/twitter/Twitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSelenium.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestSelenium.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="52" column="109" selection-start-line="52" selection-start-column="109" selection-end-line="52" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestParallel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestParallel.java">
+      <file leaf-file-name="WebDriverExtensions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/nbaynham/webdriver/extensions/WebDriverExtensions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="72">
+              <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1513#1514#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestNGExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestNGExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -279,9 +247,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6285407746719" />
+        <entry key="$PROJECT_DIR$" value="6285417703539" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4133383744" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2226430965" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2587431609" />
       </map>
@@ -468,10 +436,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestNGExample.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestSelenium.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestParallel.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/io/nbaynham/webdriver/extensions/WebDriverExtensions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/nbaynham/twitter/Twitter.java" />
       </list>
     </option>
   </component>
@@ -504,6 +474,69 @@
               <item name="automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nbaynham" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nbaynham" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nbaynham" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="extensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nbaynham" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDriverExtensions" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="automation" type="b2602c69:ProjectViewProjectNode" />
@@ -550,6 +583,16 @@
               <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nbaynham" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-testng-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -573,7 +616,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestParallel.test">
+  <component name="RunManager" selected="TestNG.Twitter.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -616,29 +659,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestParallel" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="io.nbaynham.examples" />
-      <option name="MAIN_CLASS_NAME" value="io.nbaynham.examples.TestParallel" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="TestParallel.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -662,14 +682,37 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestSelenium.testRemote" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Twitter" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="io.nbaynham.examples" />
-      <option name="MAIN_CLASS_NAME" value="io.nbaynham.examples.TestSelenium" />
-      <option name="METHOD_NAME" value="testRemote" />
+      <option name="PACKAGE_NAME" value="io.nbaynham.twitter" />
+      <option name="MAIN_CLASS_NAME" value="io.nbaynham.twitter.Twitter" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Twitter.beforeMethod" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="io.nbaynham.twitter" />
+      <option name="MAIN_CLASS_NAME" value="io.nbaynham.twitter.Twitter" />
+      <option name="METHOD_NAME" value="beforeMethod" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -685,14 +728,14 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestSelenium.testRemoteMac" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Twitter.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="io.nbaynham.examples" />
-      <option name="MAIN_CLASS_NAME" value="io.nbaynham.examples.TestSelenium" />
-      <option name="METHOD_NAME" value="testRemoteMac" />
+      <option name="PACKAGE_NAME" value="io.nbaynham.twitter" />
+      <option name="MAIN_CLASS_NAME" value="io.nbaynham.twitter.Twitter" />
+      <option name="METHOD_NAME" value="test" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -731,19 +774,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestSelenium.testRemote" />
-      <item itemvalue="TestNG.TestSelenium.testRemoteMac" />
-      <item itemvalue="TestNG.TestParallel" />
       <item itemvalue="TestNG.TestParallel.test" />
       <item itemvalue="TestNG.C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.Twitter.beforeMethod" />
+      <item itemvalue="TestNG.Twitter" />
+      <item itemvalue="TestNG.Twitter.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Twitter.test" />
+        <item itemvalue="TestNG.Twitter" />
+        <item itemvalue="TestNG.Twitter.beforeMethod" />
         <item itemvalue="TestNG.TestParallel.test" />
         <item itemvalue="TestNG.C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.TestParallel" />
-        <item itemvalue="TestNG.TestSelenium.testRemoteMac" />
-        <item itemvalue="TestNG.TestSelenium.testRemote" />
       </list>
     </recent_temporary>
   </component>
@@ -758,35 +801,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_nbaynham_Documents_GitHub_selenium-testng-gradle_src_test_resources_testng_xml - 2019.10.17 at 20h 25m 04s.xml">
-      <configuration name="C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 24m 39s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_nbaynham_Documents_GitHub_selenium-testng-gradle_src_test_resources_testng_xml - 2019.10.17 at 20h 26m 56s.xml">
-      <configuration name="C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 25m 04s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_nbaynham_Documents_GitHub_selenium-testng-gradle_src_test_resources_testng_xml - 2019.10.17 at 20h 42m 27s.xml">
-      <configuration name="C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 25m 31s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_nbaynham_Documents_GitHub_selenium-testng-gradle_src_test_resources_testng_xml - 2019.10.17 at 20h 58m 08s.xml">
-      <configuration name="C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 26m 00s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_nbaynham_Documents_GitHub_selenium-testng-gradle_src_test_resources_testng_xml - 2019.10.17 at 21h 01m 13s.xml">
-      <configuration name="C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 27m 17s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_nbaynham_Documents_GitHub_selenium-testng-gradle_src_test_resources_testng_xml - 2019.10.17 at 21h 05m 37s.xml">
-      <configuration name="C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 28m 51s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_nbaynham_Documents_GitHub_selenium-testng-gradle_src_test_resources_testng_xml - 2019.10.17 at 21h 08m 29s.xml">
-      <configuration name="C:/Users/nbaynham/Documents/GitHub/selenium-testng-gradle/src/test/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 30m 35s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestParallel_test - 2019.10.17 at 21h 09m 17s.xml">
-      <configuration name="TestParallel.test" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 31m 08s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestParallel_test - 2019.10.17 at 21h 13m 54s.xml">
-      <configuration name="TestParallel.test" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 33m 28s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestParallel_test - 2019.10.17 at 21h 15m 30s.xml">
-      <configuration name="TestParallel.test" configurationId="TestNG" />
+    <history-entry file="Twitter_test - 2019.10.19 at 11h 39m 29s.xml">
+      <configuration name="Twitter.test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -820,13 +863,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/nbaynham/examples/TestNGExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -864,6 +900,35 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1513#1514#0" expanded="true" />
             <element signature="e#1562#1563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/nbaynham/webdriver/extensions/WebDriverExtensions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/nbaynham/twitter/Twitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="52" column="109" selection-start-line="52" selection-start-column="109" selection-end-line="52" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
           </folding>
         </state>
       </provider>
